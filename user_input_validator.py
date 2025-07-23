@@ -16,30 +16,3 @@ while True:
 
     except ValueError:
         print("Invalid input. Please enter a valid number")
-
-
-    
-
-
-
-
-
-# def type_validate(age_input):
-#     try:
-#         int(age_input)
-#         return True
-#     except Exception as e:
-#         return False
-
-# def range_validate(age_input):
-#     age = int(age_input)
-#     if age >= 1 and age <= 120:
-#         return True
-#     else:
-#         return False
-    
-# def empty_input(age_input):
-#     if age_input:
-#         return True
-#     else:
-#         return False
